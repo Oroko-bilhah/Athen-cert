@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CertPath — Modern Tech Certification Learning Platform</title>
+    <link>https://certpath.dev</link>
+    <description>Master AWS, Azure, Google Cloud, Cisco, CompTIA, and Kubernetes certifications with bite-sized lessons, flashcards, scenario labs, and timed mock exams.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://certpath.dev/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>AWS Certified Cloud Practitioner (CLF-C02) Complete Course</title>
+      <link>https://certpath.dev/certifications/aws/cloud-practitioner</link>
+      <guid>https://certpath.dev/certifications/aws/cloud-practitioner</guid>
+      <pubDate>Mon, 15 Jan 2026 08:00:00 GMT</pubDate>
+      <description>Master all 20 lessons covering Cloud Concepts, IAM Security, VPC, Compute, Storage, Databases, Well-Architected Framework, and AWS Support.</description>
+    </item>
+
+    <item>
+      <title>Microsoft Azure Fundamentals (AZ-900) Complete Course</title>
+      <link>https://certpath.dev/certifications/azure/az-900</link>
+      <guid>https://certpath.dev/certifications/azure/az-900</guid>
+      <pubDate>Mon, 15 Jan 2026 08:00:00 GMT</pubDate>
+      <description>Master all 20 lessons covering Azure Architecture, Virtual Machines, Blob Storage Tiers, Entra ID, Azure Monitor, Policy, and Defender for Cloud.</description>
+    </item>
+
+    <item>
+      <title>Google Cloud Digital Leader (CDL) Complete Course</title>
+      <link>https://certpath.dev/certifications/google/cloud-fundamentals</link>
+      <guid>https://certpath.dev/certifications/google/cloud-fundamentals</guid>
+      <pubDate>Mon, 15 Jan 2026 08:00:00 GMT</pubDate>
+      <description>Master all 20 lessons covering Resource Hierarchy, Compute Engine, Cloud Run, GKE, BigQuery, Pub/Sub, Vertex AI, and Security Command Center.</description>
+    </item>
+
+    <item>
+      <title>Kubernetes Fundamentals &amp; CKA/CKAD Complete Course</title>
+      <link>https://certpath.dev/certifications/kubernetes/fundamentals</link>
+      <guid>https://certpath.dev/certifications/kubernetes/fundamentals</guid>
+      <pubDate>Mon, 15 Jan 2026 08:00:00 GMT</pubDate>
+      <description>Master all 16 lessons covering Control Plane, Pods, StatefulSets, Services, Ingress, NetworkPolicies, Helm, and Cluster Diagnostics.</description>
+    </item>
+
+    <item>
+      <title>Cisco Certified Network Associate (CCNA 200-301) Complete Course</title>
+      <link>https://certpath.dev/certifications/cisco/networking</link>
+      <guid>https://certpath.dev/certifications/cisco/networking</guid>
+      <pubDate>Mon, 15 Jan 2026 08:00:00 GMT</pubDate>
+      <description>Master all 16 lessons covering OSI 7 layers, IPv4/IPv6 VLSM subnetting, VLANs, OSPF routing, Switch Security, Wireless WLC, and SDN Automation.</description>
+    </item>
+
+    <item>
+      <title>CompTIA IT Fundamentals (ITF+) &amp; A+ Complete Course</title>
+      <link>https://certpath.dev/certifications/comptia/fundamentals</link>
+      <guid>https://certpath.dev/certifications/comptia/fundamentals</guid>
+      <pubDate>Mon, 15 Jan 2026 08:00:00 GMT</pubDate>
+      <description>Master all 16 lessons covering Hardware, NVMe &amp; RAID, CLI Administration, Wi-Fi 6, Cybersecurity MFA, SQL, and 6-step Troubleshooting.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+.breadcrumbs-nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+}
+
+.breadcrumbs-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.4rem;
+}
+
+.breadcrumb-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #292A2D;
+  font-weight: 600;
+}
+
+.breadcrumb-link {
+  color: #292A2D;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.breadcrumb-link:hover {
+  color: #292A2D;
+  text-decoration: underline;
+}
+
+.breadcrumb-current {
+  color: var(--text-primary);
+  font-weight: 800;
+}
+
+.breadcrumb-separator {
+  color: #292A2D;
+  font-size: 0.75rem;
+  font-weight: 800;
+  user-select: none;
+}

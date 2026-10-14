@@ -1,0 +1,62 @@
+# ==========================================================
+# robots.txt for CertPath (https://certpath.dev)
+# Optimized for Googlebot, Bingbot, and AI Search Crawlers
+# ==========================================================
+
+User-agent: *
+Allow: /
+Allow: /certifications/
+Allow: /certifications/*
+Allow: /site.webmanifest
+Allow: /feed.xml
+Allow: /llms.txt
+Disallow: /dashboard
+Disallow: /api/
+Disallow: /*?*search=
+
+User-agent: Googlebot
+Allow: /
+Allow: /certifications/
+Allow: /certifications/*
+Disallow: /dashboard
+
+User-agent: Bingbot
+Allow: /
+Allow: /certifications/
+Allow: /certifications/*
+Disallow: /dashboard
+
+User-agent: Applebot
+Allow: /
+Allow: /certifications/
+Allow: /certifications/*
+Disallow: /dashboard
+
+User-agent: DuckDuckBot
+Allow: /
+Allow: /certifications/
+Allow: /certifications/*
+Disallow: /dashboard
+
+# AI & LLM Search Crawlers (Perplexity, ChatGPT, Claude)
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /certifications/
+Disallow: /dashboard
+
+User-agent: ClaudeBot
+Allow: /
+Allow: /llms.txt
+Allow: /certifications/
+Disallow: /dashboard
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Allow: /certifications/
+Disallow: /dashboard
+
+# Host & Sitemap Directives
+Host: https://certpath.dev
+Sitemap: https://certpath.dev/sitemap.xml

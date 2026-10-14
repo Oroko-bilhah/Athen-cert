@@ -1,0 +1,10 @@
+
+@import "./CertificationRoadmap.css";
+
+.aws-roadmap-page {
+  min-height: 100vh;
+  background: var(--bg-app);
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+}

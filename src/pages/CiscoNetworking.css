@@ -1,0 +1,413 @@
+
+
+.cisco-page {
+  min-height: 100vh;
+  background: #FFF5E8;
+  color: #292A2D;
+}
+
+.cisco-header {
+  height: 72px;
+  padding: 0 6%;
+  background: #FFF5E8;
+  border-bottom: 1px solid #FFF5E8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cisco-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cisco-brand small {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #F26B5B;
+  margin-bottom: 3px;
+}
+
+.cisco-brand strong {
+  font-size: 15px;
+}
+
+.back-arrow {
+  text-decoration: none;
+  font-size: 22px;
+  color: #292A2D;
+}
+
+.header-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  color: #F26B5B;
+}
+
+.header-progress strong {
+  color: #292A2D;
+}
+
+.mini-progress {
+  width: 120px;
+  height: 6px;
+  background: #FFF5E8;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.mini-progress div {
+  width: 0%;
+  height: 100%;
+  background: #F26B5B;
+}
+
+.cisco-content {
+  max-width: 1180px;
+  margin: auto;
+  padding: 55px 24px 100px;
+}
+
+.cisco-hero {
+  background: #FFF5E8;
+  border: 1px solid #FFF5E8;
+  border-radius: 20px;
+  padding: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.cisco-label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #F26B5B;
+  margin-bottom: 14px;
+}
+
+.cisco-hero h1 {
+  font-size: 48px;
+  margin: 0 0 18px;
+  letter-spacing: -1.5px;
+}
+
+.cisco-hero p {
+  max-width: 650px;
+  line-height: 1.7;
+  color: #F26B5B;
+  font-size: 16px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.continue-btn,
+.outline-btn {
+  padding: 13px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.continue-btn {
+  background: #F26B5B;
+  color: white;
+  text-decoration: none;
+}
+
+.outline-btn {
+  background: white;
+  border: 1px solid #F26B5B;
+  color: #292A2D;
+}
+
+.readiness {
+  min-width: 190px;
+  text-align: center;
+  padding: 25px;
+  border-left: 1px solid #FFF5E8;
+}
+
+.readiness > span {
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  color: #F26B5B;
+}
+
+.readiness-score {
+  margin: 15px 0 5px;
+}
+
+.readiness-score strong {
+  font-size: 55px;
+}
+
+.readiness-score small {
+  font-size: 20px;
+  color: #F26B5B;
+}
+
+.readiness p {
+  font-size: 13px;
+  color: #F26B5B;
+}
+
+.learning-stats {
+  margin: 25px 0 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: white;
+  border: 1px solid #FFF5E8;
+  border-radius: 16px;
+}
+
+.learning-stats div {
+  padding: 25px;
+  text-align: center;
+  border-right: 1px solid #FFF5E8;
+}
+
+.learning-stats div:last-child {
+  border-right: none;
+}
+
+.learning-stats strong {
+  display: block;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.learning-stats span {
+  color: #F26B5B;
+  font-size: 13px;
+}
+
+.learning-path {
+  margin-top: 40px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.section-title span {
+  color: #F26B5B;
+  letter-spacing: 1.5px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  margin-top: 8px;
+  letter-spacing: -1px;
+}
+
+.section-title p {
+  max-width: 500px;
+  color: #F26B5B;
+  line-height: 1.7;
+}
+
+.topics {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.topic-card {
+  display: flex;
+  background: white;
+  border: 1px solid #FFF5E8;
+  border-radius: 16px;
+  padding: 22px 24px;
+  gap: 20px;
+}
+
+.topic-number {
+  min-width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: #FFF5E8;
+  color: #F26B5B;
+  font-weight: 800;
+}
+
+.topic-information {
+  flex: 1;
+}
+
+.topic-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.topic-heading h3 {
+  font-size: 20px;
+}
+
+.current-label {
+  font-size: 10px;
+  letter-spacing: 1.4px;
+  font-weight: 800;
+  color: #F26B5B;
+  background: #FFF5E8;
+  padding: 7px 10px;
+  border-radius: 999px;
+}
+
+.topic-information p {
+  color: #F26B5B;
+  line-height: 1.7;
+}
+
+.topic-progress {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.topic-bar {
+  height: 8px;
+  width: 260px;
+  background: #FFF5E8;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.topic-bar div {
+  height: 100%;
+  background: #F26B5B;
+  border-radius: inherit;
+}
+
+.topic-progress span {
+  display: block;
+  margin-top: 8px;
+  color: #F26B5B;
+  font-size: 12px;
+}
+
+.topic-progress a {
+  color: #F26B5B;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.practice-section {
+  margin-top: 70px;
+}
+
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.practice-card {
+  background: white;
+  border: 1px solid #FFF5E8;
+  border-radius: 18px;
+  padding: 26px;
+}
+
+.practice-icon {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: #FFF5E8;
+  color: #F26B5B;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.practice-card h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.practice-card p {
+  color: #F26B5B;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.practice-card button {
+  border: none;
+  background: transparent;
+  color: #F26B5B;
+  font-weight: 700;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  .cisco-hero,
+  .section-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .learning-stats,
+  .practice-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .cisco-header {
+    padding: 0 20px;
+    gap: 12px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .cisco-content {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .cisco-hero {
+    padding: 30px 20px;
+  }
+
+  .learning-stats,
+  .practice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .topic-card {
+    flex-direction: column;
+  }
+
+  .topic-progress {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

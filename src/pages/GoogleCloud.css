@@ -1,0 +1,569 @@
+
+
+.gcp-full-course {
+  background: var(--bg-app);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+
+.gcp-hero-pill {
+  background: rgba(66, 133, 244, 0.1);
+  border: 1px solid rgba(66, 133, 244, 0.25);
+}
+
+.gcp-hero-pill .hero-short-title {
+  color: #F26B5B;
+}
+
+.gcp-btn {
+  background: #F26B5B !important;
+  color: #FFF5E8 !important;
+  border-color: #F26B5B !important;
+  box-shadow: 0 4px 14px rgba(66, 133, 244, 0.3);
+}
+
+.gcp-btn:hover {
+  background: #F26B5B !important;
+}
+
+
+.gcp-weight-pills .domain-pill {
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  background: rgba(66, 133, 244, 0.08);
+  border: 1px solid rgba(66, 133, 244, 0.2);
+}
+
+.gcp-weight-pills .pill-g1 {
+  border-color: rgba(59, 130, 246, 0.4);
+}
+.gcp-weight-pills .pill-g2 {
+  border-color: rgba(99, 102, 241, 0.4);
+}
+.gcp-weight-pills .pill-g3 {
+  border-color: rgba(14, 165, 233, 0.4);
+}
+.gcp-weight-pills .pill-g4 {
+  border-color: rgba(52, 211, 153, 0.4);
+}
+
+.gcp-weight-pills .domain-pill span {
+  background: #F26B5B;
+}
+
+
+.gcp-page-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  box-sizing: border-box;
+}
+
+.gcp-page-wrapper.no-sidebar .gcp-hub-main-content {
+  width: 100%;
+}
+
+.gcp-hub-main-content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+.gcp-course-side-navbar {
+  width: 340px;
+  min-width: 320px;
+  position: sticky;
+  top: 1.5rem;
+  max-height: calc(100vh - 3rem);
+  background: #FFF5E8;
+  border: 1px solid var(--border-card);
+  border-radius: 16px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-card);
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1100px) {
+  .gcp-page-wrapper {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .gcp-course-side-navbar {
+    width: 100%;
+    min-width: 100%;
+    position: static;
+    max-height: 500px;
+  }
+}
+
+.gcp-sidenav-header {
+  margin-bottom: 0.75rem;
+}
+
+.gcp-sidenav-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.gcp-sidenav-eyebrow {
+  color: #F26B5B;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.gcp-sidenav-lesson-count {
+  background: rgba(66, 133, 244, 0.1);
+  color: #F26B5B;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: 6px;
+}
+
+.gcp-sidenav-header h3 {
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  margin: 0.2rem 0 0.6rem;
+}
+
+.gcp-sidenav-search-box {
+  position: relative;
+  width: 100%;
+}
+
+.gcp-sidenav-search-input {
+  width: 100%;
+  background: var(--bg-surface-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 0.45rem 0.8rem;
+  color: var(--text-primary);
+  font-size: 0.82rem;
+  box-sizing: border-box;
+}
+
+.gcp-sidenav-search-input:focus {
+  outline: none;
+  border-color: #F26B5B;
+}
+
+.gcp-sidenav-clear {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+
+.gcp-sidenav-quick-views {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem;
+  margin: 0.5rem 0 0.85rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.gcp-sn-view-btn {
+  background: var(--bg-surface-raised);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  padding: 0.35rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.gcp-sn-view-btn:hover, .gcp-sn-view-btn.active {
+  background: rgba(66, 133, 244, 0.15);
+  color: #F26B5B;
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+
+.gcp-sidenav-lessons-tree {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  scrollbar-width: thin;
+}
+
+.gcp-domain-accordion-group {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.gcp-domain-accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.65rem 0.85rem;
+  background: var(--bg-surface-raised);
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s ease;
+}
+
+.gcp-domain-accordion-header:hover {
+  background: #FFF5E8;
+}
+
+.gcp-dah-info strong {
+  display: block;
+  color: var(--text-primary);
+  font-size: 0.82rem;
+}
+
+.gcp-dah-weight {
+  color: #F26B5B;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.gcp-dah-chevron {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+}
+
+.gcp-domain-lesson-links-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0.35rem 0;
+}
+
+.gcp-sidenav-lesson-link {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.5rem 0.85rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  transition: all 0.15s ease;
+}
+
+.gcp-sidenav-lesson-link:hover {
+  background: var(--bg-surface-raised);
+  color: var(--text-primary);
+  border-left-color: #F26B5B;
+}
+
+.gcp-sidenav-lesson-link.completed {
+  color: var(--text-muted);
+}
+
+.gcp-sll-num {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #F26B5B;
+  width: 20px;
+  flex-shrink: 0;
+}
+
+.gcp-sidenav-lesson-link.completed .gcp-sll-num {
+  color: #F26B5B;
+}
+
+.gcp-sll-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.gcp-sll-info strong {
+  display: block;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #FFF5E8;
+}
+
+.gcp-sll-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.7rem;
+  color: #F26B5B;
+}
+
+.gcp-sll-dot {
+  font-size: 0.6rem;
+}
+
+.gcp-sll-cat {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.gcp-sidenav-footer-tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.35rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.gcp-sn-tool-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #FFF5E8;
+  padding: 0.4rem 0.2rem;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+
+.gcp-sn-tool-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.gcp-sn-tool-btn.tool-primary {
+  background: #F26B5B;
+  color: white;
+  border-color: #F26B5B;
+}
+
+
+.gcp-main-nav-tabs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 0.75rem 0;
+  margin: 0.5rem 0 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  scrollbar-width: thin;
+}
+
+.gcp-nav-tab {
+  background: rgba(255, 255, 255, 0.04);
+  color: #F26B5B;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.6rem 1.1rem;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.gcp-nav-tab:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #FFF5E8;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.gcp-nav-tab.active {
+  background: #F26B5B;
+  color: #FFF5E8;
+  border-color: #F26B5B;
+  box-shadow: 0 4px 12px rgba(66, 133, 244, 0.3);
+}
+
+
+.gcp-tab-content-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  animation: fadeInTab 0.25s ease forwards;
+}
+
+
+.gcp-overview-card {
+  border-color: rgba(66, 133, 244, 0.2);
+}
+
+.gcp-cert-vs {
+  border-color: rgba(66, 133, 244, 0.2);
+}
+
+.gcp-bp {
+  background: rgba(66, 133, 244, 0.08);
+  border-color: rgba(66, 133, 244, 0.2);
+}
+
+.gcp-bp strong {
+  color: #F26B5B;
+}
+
+.gcp-ef {
+  border-left-color: #F26B5B;
+}
+
+.gcp-step-badge {
+  background: #F26B5B;
+}
+
+.gcp-df.active, .gcp-df:hover {
+  background: #F26B5B;
+  color: white;
+  border-color: #F26B5B;
+}
+
+.gcp-dom-card:hover, .gcp-dom-card.highlighted {
+  border-color: #F26B5B;
+  background: rgba(66, 133, 244, 0.08);
+}
+
+.gcp-weight-tag {
+  background: rgba(66, 133, 244, 0.15);
+  color: #F26B5B;
+}
+
+.gcp-lesson-card.completed {
+  border-left: 3px solid #F26B5B;
+}
+
+.gcp-lesson-num {
+  background: rgba(66, 133, 244, 0.15);
+  color: #F26B5B;
+}
+
+.gcp-lesson-card.completed .gcp-lesson-num {
+  background: #F26B5B;
+  color: white;
+}
+
+.gcp-takeaway small {
+  color: #F26B5B;
+}
+
+.gcp-launch-btn {
+  background: rgba(66, 133, 244, 0.15);
+  border: 1px solid rgba(66, 133, 244, 0.4);
+  color: #F26B5B;
+}
+
+.gcp-launch-btn:hover {
+  background: #F26B5B;
+  color: white;
+}
+
+.gcp-lab-item.active {
+  background: rgba(66, 133, 244, 0.15);
+  border-color: rgba(96, 165, 250, 0.3);
+}
+
+.gcp-lab-num {
+  color: #F26B5B;
+}
+
+.gcp-tag {
+  background: #F26B5B;
+  color: white;
+}
+
+.gcp-callout {
+  border-left-color: #F26B5B;
+}
+
+.gcp-counter {
+  background: rgba(66, 133, 244, 0.2);
+  color: #F26B5B;
+}
+
+.gcp-terminal-code {
+  color: #F26B5B;
+}
+
+.gcp-sol-btn {
+  background: rgba(66, 133, 244, 0.15);
+  border: 1px solid rgba(66, 133, 244, 0.4);
+  color: #F26B5B;
+}
+
+.gcp-cat-pill.active, .gcp-cat-pill:hover {
+  background: #F26B5B;
+  color: white;
+  border-color: #F26B5B;
+}
+
+.gcp-scenario-prompt {
+  border-left-color: #F26B5B;
+}
+
+.gcp-letter {
+  background: rgba(66, 133, 244, 0.2);
+}
+
+.gcp-next-btn {
+  background: #F26B5B;
+}
+
+.gcp-cat-btn.active, .gcp-cat-btn:hover {
+  background: #F26B5B;
+  color: white;
+  border-color: #F26B5B;
+}
+
+.gcp-svc-card strong {
+  color: #F26B5B;
+}
+
+.gcp-weight-pill, .gcp-pe-badge {
+  background: rgba(66, 133, 244, 0.15);
+  color: #F26B5B;
+}
+
+.gcp-final-mock {
+  border-color: #F26B5B;
+  background: rgba(66, 133, 244, 0.08);
+}
+
+.gcp-badge {
+  background: rgba(66, 133, 244, 0.15);
+  color: #F26B5B;
+}
+
+.gcp-sp-items strong {
+  color: #F26B5B;
+}
+
+.gcp-rule-card {
+  border-left: 3px solid #F26B5B;
+}
+
+.gcp-ac-code {
+  background: rgba(66, 133, 244, 0.15);
+  color: #F26B5B;
+}
+
+.gcp-cpc-badge {
+  background: rgba(66, 133, 244, 0.15);
+  color: #F26B5B;
+}

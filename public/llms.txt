@@ -1,0 +1,29 @@
+# CertPath — Modern Tech Certification Learning Platform
+
+> CertPath (https://certpath.dev) is an interactive, developer-first learning platform for mastering AWS, Azure, Google Cloud, Cisco CCNA, CompTIA, and Kubernetes CKA/CKAD certifications through bite-sized lessons, active recall flashcards, and timed mock exams.
+
+## Certification Tracks
+
+- [AWS Certified Cloud Practitioner (CLF-C02)](https://certpath.dev/certifications/aws/cloud-practitioner): 20 Lessons covering Cloud Concepts, AWS Global Infrastructure, IAM Security, EC2, S3 Storage Classes, VPC Networking, RDS/Aurora Databases, Well-Architected Framework, and AWS Support.
+- [Microsoft Azure Fundamentals (AZ-900)](https://certpath.dev/certifications/azure/az-900): 20 Lessons covering Cloud Computing, Azure Regions/AZs, Virtual Machines, Blob Tiers & Redundancy (LRS/ZRS/GRS), Microsoft Entra ID, Azure Monitor, Policy, Defender for Cloud, and SLAs.
+- [Google Cloud Digital Leader (CDL)](https://certpath.dev/certifications/google/cloud-fundamentals): 20 Lessons covering 4-Level Resource Hierarchy, Compute Engine, App Engine, Cloud Storage Tiers, Cloud SQL/Spanner, Cloud IAM, Cloud Operations, Cloud Run, GKE, BigQuery, Pub/Sub, Vertex AI, and Security Command Center.
+- [Kubernetes Fundamentals & CKA/CKAD](https://certpath.dev/certifications/kubernetes/fundamentals): 16 Lessons covering Container Runtimes, Control Plane/Worker Nodes, Pods, StatefulSets, Services, Ingress, NetworkPolicies, ConfigMaps/Secrets, Persistent Storage (PV/PVC), HPA Scaling, RBAC, Helm, and Cluster Diagnostics.
+- [Cisco Certified Network Associate (CCNA 200-301)](https://certpath.dev/certifications/cisco/networking): 16 Lessons covering OSI & TCP/IP models, IPv4/IPv6 VLSM subnetting, Ethernet Switching, VLANs, OSPF dynamic routing, Extended ACLs, NAT/PAT, Switch Security, Wireless WLC, and SDN Automation.
+- [CompTIA IT Fundamentals (ITF+) & A+](https://certpath.dev/certifications/comptia/fundamentals): 16 Lessons covering Binary/Hex data units, Motherboards/CPU/RAM, NVMe & RAID, Power Supplies & USB-C/Thunderbolt, OS & CLI administration (ipconfig, sfc, tracert, chmod), Wi-Fi 6, Cybersecurity MFA, SQL databases, and 6-step Troubleshooting.
+
+## Career Path Roadmaps
+
+- [AWS Certification Roadmap](https://certpath.dev/certifications/aws)
+- [Microsoft Azure Certification Roadmap](https://certpath.dev/certifications/azure)
+- [Google Cloud Certification Roadmap](https://certpath.dev/certifications/google)
+- [Cloud Native & Kubernetes Roadmap](https://certpath.dev/certifications/kubernetes)
+- [Cisco Networking Roadmap](https://certpath.dev/certifications/cisco)
+- [CompTIA Certification Roadmap](https://certpath.dev/certifications/comptia)
+
+## Interactive Learning Features
+
+- 108 Curated Lessons with theory, architectural diagrams, and real-world examples.
+- Interactive Knowledge Checks with immediate answer verification and in-depth explanations.
+- Spaced Repetition Flashcards for active recall.
+- Interactive Scenario Labs (IAM Policy Simulator, Subnet Partitioner, YAML Manifest Validator).
+- Timed Mock Exams simulating authentic exam question distribution and passing thresholds.
